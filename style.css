@@ -1,0 +1,33 @@
+body{
+    background: #dedede;
+}
+li{
+    list-style-type: none;
+}
+.block{    
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+ul{
+    padding:0px;
+    margin:0px;
+}
+
+.mainComponent{
+    display:table;
+    width:100%;
+}
+.mainComponent>li{
+    width:32%;
+    margin-right:1%;
+    float:left;
+    box-sizing: border-box;
+}
+.remove{
+    font-size: 20px;
+    color:red;
+    text-decoration: none;
+    margin-left:20px;
+    font-weight: bold;
+}
